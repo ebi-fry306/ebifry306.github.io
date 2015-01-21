@@ -1,12 +1,16 @@
+@font-face{
+    font-family: Koruri-Light;
+    src: url(https://github.com/Koruri/Koruri/blob/master/Koruri-Light.ttf);
+}
 body{
     background-color: black;
-    font-family: Verdana,'Hiragino Kaku Gothic ProN',Meiryo,sans-serif;
+    font-family: 'Inconsolata',Koruri-Light,sans-serif;
     font-size: 50px;
     color: limegreen;
     text-align: center;
 }
 h1{
-   color: greenyellow;
+   color: lime;
    font-size: 60px;
 }
 a:link{

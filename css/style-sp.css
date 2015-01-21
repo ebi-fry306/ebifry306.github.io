@@ -1,6 +1,10 @@
+@font-face{
+    font-family: Koruri-Light;
+    src: url(https://github.com/Koruri/Koruri/blob/master/Koruri-Light.ttf);
+}
 body{
     background-color: black;
-    font-family:Verdana,Roboto,'Hiragino Kaku Gothic ProN',sans-serif;
+    font-family: 'Inconsolata',Koruri-Light,sans-serif;
     font-size: 120%;
     color: red;
     text-align: center;
