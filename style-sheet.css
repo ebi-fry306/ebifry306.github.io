@@ -1,0 +1,22 @@
+body{
+    background-color: white;
+    font-family: Verdana,'Hiragino Kaku Gothic ProN',Meiryo,sans-serif;
+}
+h3{
+    color: limegreen;
+}
+#blend a:link{
+    color: limegreen;
+    text-decoration: none;
+}
+#blend a:visited{
+    color: darkgreen;
+    text-decoration: none;
+}
+#blend a:hover{
+    color: lime;
+    text-decoration: none;
+}
+.text{color: darkgreen;}
+.string {color: limegreen;}
+.line01 {border-top:solid 2px lime;}

@@ -1,0 +1,19 @@
+body{
+    background-color: white;
+    font-family:Verdana,Roboto,'Hiragino Kaku Gothic ProN',sans-serif;
+    font-size: 130%
+}
+#blend a:link{
+    color: red;
+}
+#blend a:visited{
+    color: darkred;
+}
+#blend a:hover{
+    color: orangered;
+}
+.text {
+    color: darkred;
+}
+.string {color: red;}
+.line01 {border-top:solid 2px red;}
