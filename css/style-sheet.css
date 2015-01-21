@@ -1,26 +1,23 @@
 body{
-    background-color: white;
+    background-color: black;
     font-family: Verdana,'Hiragino Kaku Gothic ProN',Meiryo,sans-serif;
-    font-size: 30px;
-    color: darkgreen;
+    font-size: 50px;
+    color: limegreen;
+    text-align: center;
 }
 h1{
-   color: limegreen;
-   fonrsize: 50px;
+   color: greenyellow;
+   font-size: 60px;
 }
-h3{
-    color: limegreen;
-    font-size: 40px;
-}
-#blend a:link{
+a:link{
     color: limegreen;
     text-decoration: none;
 }
-#blend a:visited{
+a:visited{
     color: darkgreen;
     text-decoration: none;
 }
-#blend a:hover{
+a:hover{
     color: lime;
     text-decoration: none;
 }
