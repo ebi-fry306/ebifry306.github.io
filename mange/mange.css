@@ -1,0 +1,23 @@
+﻿body {
+    background-color:white;
+    text-align:center;
+    font-family: 'Open Sans', sans-serif;
+    color:limegreen;
+}
+.mange{
+    color:black;
+    text-align:center;
+}
+.top{
+    background-color:lime;
+    color:white;
+    font-size:60px;
+}
+a:link{
+    color:limegreen;
+    text-decoration:none;
+}
+a:visited{
+    color:limegreen;
+    text-decoration:none;
+}
