@@ -1,0 +1,51 @@
+body{
+    font-family: 'Play', sans-serif;
+}
+img.ebifry{
+    position: absolute;
+    top: 70px;
+    left: 50%;
+}
+ul.navi{
+    width: 190px;
+    margin: 0px;
+    font-size: 20px;
+    position: absolute;
+    top: 80px;
+    left: 30%;
+}
+ul.navi,ul.menu{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+div.category{
+    color: white;
+    margin-top: 5px;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 40px;
+    background-image:url("/img/category_close.gif");
+    cursor: pointer;
+}
+div.open{
+    background-image:url("/img/category_open.gif");
+}
+ul.menu a{
+    display: block;
+    height: 35px;
+    line-height: 35px;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+ul.menu a:hover{
+    color: #ffb400;
+}
+ul.menu li{
+    background-image:url("/img/menu.gif");
+    text-indent: 35px;
+}
+ul.menu li:hover{
+    background-image: url("/img/menu_hover.gif");
+}
