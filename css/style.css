@@ -111,6 +111,10 @@ button::-moz-focus-inner {
   padding: 0;
 }
 @font-face {
+  font-family: "Noto Sans";
+  src: url("fonts/NotoSansJP-DemiLight.otf") format("opentype");
+}
+@font-face {
   font-family: FontAwesome;
   font-style: normal;
   font-weight: normal;
@@ -128,7 +132,7 @@ body,
 }
 body {
   background: #eee;
-  font: 14px "Segoe UI", Meiryo, "Helvetica Neue", Helvetica, sans-serif;
+  font: 14px "Noto Sans", Verdana, Roboto, "Droid Sans", "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino";
   -webkit-text-size-adjust: 100%;
 }
 .outer {
@@ -488,7 +492,7 @@ body {
   background: none;
   color: #555;
   width: 100%;
-  font: 13px "Segoe UI", Meiryo, "Helvetica Neue", Helvetica, sans-serif;
+  font: 13px "Noto Sans", Verdana, Roboto, "Droid Sans", "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino";
   outline: none;
 }
 .search-form-input::-webkit-search-results-decoration,
@@ -581,7 +585,7 @@ a.article-title:hover {
 .article-entry h4,
 .article-entry h5,
 .article-entry h6 {
-  font-family: "Segoe UI", Meiryo, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "Noto Sans", Verdana, Roboto, "Droid Sans", "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino";
   font-weight: bold;
 }
 .article-entry h1,
@@ -647,7 +651,7 @@ a.article-title:hover {
 .article-entry blockquote footer {
   font-size: 14px;
   margin: 1.6em 0;
-  font-family: "Segoe UI", Meiryo, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "Noto Sans", Verdana, Roboto, "Droid Sans", "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino";
 }
 .article-entry blockquote footer cite:before {
   content: "—";
@@ -855,7 +859,7 @@ a.article-title:hover {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  font: 14px "Segoe UI", Meiryo, "Helvetica Neue", Helvetica, sans-serif;
+  font: 14px "Noto Sans", Verdana, Roboto, "Droid Sans", "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino";
   padding: 0 15px;
   color: #555;
   outline: none;
@@ -1214,7 +1218,7 @@ a.article-title:hover {
 .article-entry .gist .gist-file .gist-meta {
   background: #2d2d2d;
   color: #999;
-  font: 0.85em "Segoe UI", Meiryo, "Helvetica Neue", Helvetica, sans-serif;
+  font: 0.85em "Noto Sans", Verdana, Roboto, "Droid Sans", "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino";
   text-shadow: 0 0;
   padding: 0;
   margin-top: 1em;
