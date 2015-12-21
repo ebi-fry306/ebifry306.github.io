@@ -112,7 +112,14 @@ button::-moz-focus-inner {
 }
 @font-face {
   font-family: "Noto Sans";
-  src: url("fonts/NotoSansJP-DemiLight.otf") format("opentype");
+  src: url("/css/fonts/NotoSans-Regular.ttf");
+}
+@font-face {
+  font-family: "Noto Color Emoji";
+  src: url("/css/fonts/NotoColorEmoji.ttf");
+}
+.emoji {
+  font-familiy: "Noto Color Emoji";
 }
 @font-face {
   font-family: FontAwesome;
