@@ -9,6 +9,7 @@ body:after {
 body:after {
   clear: both;
 }
+@import url("//fonts.googleapis.com/earlyaccess/notosansjapanese.css");
 html,
 body,
 div,
@@ -111,17 +112,6 @@ button::-moz-focus-inner {
   padding: 0;
 }
 @font-face {
-  font-family: "Noto Sans";
-  src: url("/css/fonts/NotoSans-Regular.ttf");
-}
-@font-face {
-  font-family: "Noto Color Emoji";
-  src: url("/css/fonts/NotoColorEmoji.ttf");
-}
-.emoji {
-  font-familiy: "Noto Color Emoji";
-}
-@font-face {
   font-family: FontAwesome;
   font-style: normal;
   font-weight: normal;
@@ -139,7 +129,7 @@ body,
 }
 body {
   background: #eee;
-  font: 14px "Noto Sans", Verdana, Roboto, "Droid Sans", "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino";
+  font: 14px "Noto Sans Japanese", "Segoe UI", Meiryo, "Helvetica Neue", Helvetica, sans-serif;
   -webkit-text-size-adjust: 100%;
 }
 .outer {
@@ -499,7 +489,7 @@ body {
   background: none;
   color: #555;
   width: 100%;
-  font: 13px "Noto Sans", Verdana, Roboto, "Droid Sans", "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino";
+  font: 13px "Noto Sans Japanese", "Segoe UI", Meiryo, "Helvetica Neue", Helvetica, sans-serif;
   outline: none;
 }
 .search-form-input::-webkit-search-results-decoration,
@@ -592,7 +582,7 @@ a.article-title:hover {
 .article-entry h4,
 .article-entry h5,
 .article-entry h6 {
-  font-family: "Noto Sans", Verdana, Roboto, "Droid Sans", "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino";
+  font-family: "Segoe UI", Meiryo, "Helvetica Neue", Helvetica, sans-serif;
   font-weight: bold;
 }
 .article-entry h1,
@@ -658,7 +648,7 @@ a.article-title:hover {
 .article-entry blockquote footer {
   font-size: 14px;
   margin: 1.6em 0;
-  font-family: "Noto Sans", Verdana, Roboto, "Droid Sans", "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino";
+  font-family: "Noto Sans Japanese", "Segoe UI", Meiryo, "Helvetica Neue", Helvetica, sans-serif;
 }
 .article-entry blockquote footer cite:before {
   content: "—";
@@ -866,7 +856,7 @@ a.article-title:hover {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  font: 14px "Noto Sans", Verdana, Roboto, "Droid Sans", "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino";
+  font: 14px "Noto Sans Japanese", "Segoe UI", Meiryo, "Helvetica Neue", Helvetica, sans-serif;
   padding: 0 15px;
   color: #555;
   outline: none;
@@ -1225,7 +1215,7 @@ a.article-title:hover {
 .article-entry .gist .gist-file .gist-meta {
   background: #2d2d2d;
   color: #999;
-  font: 0.85em "Noto Sans", Verdana, Roboto, "Droid Sans", "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino";
+  font: 0.85em "Noto Sans Japanese", "Segoe UI", Meiryo, "Helvetica Neue", Helvetica, sans-serif;
   text-shadow: 0 0;
   padding: 0;
   margin-top: 1em;
